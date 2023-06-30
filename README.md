@@ -9,7 +9,6 @@ ShieldCrypt is a powerful Python module for secure data encryption and decryptio
 - Customizable encryption modes to meet specific requirements.
 - File encryption for secure storage and transmission.
 - Ideal for secure file storage, communication, and password protection use cases.
-- Emphasizes high code quality, documentation, and developer-friendly integration.
 
 ## Installation
 
