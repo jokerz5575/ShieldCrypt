@@ -25,19 +25,31 @@ Here is an example of how to use ShieldCrypt for data encryption and decryption:
 ```python
 from shieldcrypt import ShieldCrypt
 
-# Create a ShieldCrypt instance
-crypt = ShieldCrypt()
+def main():
+    crypt = ShieldCrypt()
 
-# Generate a random encryption key
-key = crypt.generate_key()
+    # Generate a key and export it to a key file
+    crypt.generate_key()
+    crypt.export_key('key.key')
 
-# Encrypt data
-plaintext = "Sensitive information"
-encrypted_data = crypt.encrypt(plaintext)
+    # Import the key from a file if needed
+    crypt.import_key('key.key')
 
-# Perform necessary operations with encrypted data
+    # Encrypt and decrypt data (runtime)
+    plaintext = "This is a sample message."
+    encrypted_data = crypt.encrypt(plaintext)
+    decrypted_data = crypt.decrypt(encrypted_data)
 
-# Decrypt data
-decrypted_data = crypt.decrypt(encrypted_data)
-print(decrypted_data)  # Output: Sensitive information
+    # Print the results
+    print("Plaintext:", plaintext)
+    print("Encrypted data:", encrypted_data)
+    print("Decrypted data:", decrypted_data)
+
+    # Encrypt and decrypt a file
+    crypt.encrypt_file('test_file.txt', 'encrypted_file.txt')
+    crypt.decrypt_file('encrypted_file.txt', 'decrypted_file.txt')
+
+if __name__ == '__main__':
+    main()
+
 ```
