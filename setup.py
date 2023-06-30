@@ -8,7 +8,7 @@ setup(
   author = 'jokerz5575',                   # Type in your name
   author_email = 'peterschmidt5575@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/jokerz/shieldcrypt',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/jokerz5575/shieldcrypt/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/jokerz5575/ShieldCrypt/archive/refs/tags/Beta.tar.gz',    # I explain this later on
   keywords = ['python3', 'encryption', 'AES'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'cryptography'
