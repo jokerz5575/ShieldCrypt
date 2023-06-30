@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ShieldCrypt
+Version: 0.1
+Summary: Encrypt and Decrypt, Store keys, with AES
+Home-page: https://github.com/jokerz/shieldcrypt
+Download-URL: https://github.com/jokerz5575/ShieldCrypt/archive/refs/tags/Beta.tar.gz
+Author: jokerz5575
+Author-email: peterschmidt5575@gmail.com
+License: GPL-3.0
+Keywords: python3,encryption,AES
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE

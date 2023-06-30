@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ShieldCrypt/shieldcrypt.py
+ShieldCrypt/test.py
+ShieldCrypt.egg-info/PKG-INFO
+ShieldCrypt.egg-info/SOURCES.txt
+ShieldCrypt.egg-info/dependency_links.txt
+ShieldCrypt.egg-info/requires.txt
+ShieldCrypt.egg-info/top_level.txt
