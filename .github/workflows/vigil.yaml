@@ -1,0 +1,18 @@
+# vigil.yaml
+policy:
+  allow:
+    - MIT
+    - Apache-2.0
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - ISC
+
+  block:
+    - GPL-2.0
+    - GPL-3.0
+    - AGPL-3.0
+    - SSPL-1.0
+
+  warn:
+    - LGPL-2.1
+    - LGPL-3.0
