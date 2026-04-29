@@ -1,0 +1,12 @@
+name: License Compliance
+
+on: [push, pull_request]
+
+jobs:
+  compliance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run OSSentinel license scan
+        uses: jokerz5575/vigil-action@v1.0-beta
